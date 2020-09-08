@@ -6,7 +6,7 @@ minimum = 1000
 min_item = ""
 name_hash.each do |item, amount|
   if amount < minimum
-    amount = minimum
+    minimum =  amount
     min_item = item
   end
 end
