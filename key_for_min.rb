@@ -10,5 +10,8 @@ name_hash.each do |item, amount|
     min_item = item
   end
 end
-min_item
+if min_item.is_a? String
+  min_item
+else nil
+end
 end
